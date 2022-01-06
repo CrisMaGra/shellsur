@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+	padding: inherit;
+	font-family: sans-serif;
+	box-sizing: border-box;
+    text-transform: uppercase;
+
+}
+
+
+body {
+    padding-top: 200px; 
+    display: block;
+	min-height: 100vh;
+    background-image: url(Img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1000px 700px;
+    background-color: black;
+}
+
+
+.FrmIndex {
+    margin: auto;
+	width: 75%;
+	max-width: 350px;
+	padding: 20px;
+	background:none;
+    opacity:0.70;
+    
+}
+
+input {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+    background: #FEFEFE;
+    border: 0;
+    opacity: 0.7;
+}
+
+input[type="submit"] {
+	background: linear-gradient(#ffda63, #ff9940);
+	border: 0;
+	color: brown;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+input[type="submit"]:hover {
+	background: linear-gradient(#ff9940, #ff9940);
+}
+
+input[type="submit"]:active {
+	transform: scale(0.85);
+}

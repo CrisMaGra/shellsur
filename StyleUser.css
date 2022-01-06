@@ -1,0 +1,249 @@
+
+*{
+	font-family: sans-serif;
+    
+}
+
+
+iframe{
+    width: 90%; 
+    height: 800px;
+    margin: inherit;
+
+}
+
+
+.Volver{
+    padding: 2px;
+    color: #adadad;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    background: none;
+}
+
+.Volver:hover {
+    padding: 2px;
+    color: #fae903fd;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #fd3503;
+    transition: .4s;
+
+}
+
+.Principal{
+    padding: 2px;
+    color: #adadad;
+    margin: 5px;
+    text-decoration: none;
+    background: #fd3503;
+
+}
+
+.Principal:hover {
+    padding: 2px;
+    color: #fd3503;
+    margin: 5px;
+    text-decoration: none;
+    background: #fae903fd;
+    transition: .4s;
+}
+
+.Salir{
+    padding: 2px;
+    color: #fd3503;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    background: none;
+    border-color: none;
+}
+
+.Salir:hover {
+
+    padding: 2px;
+    color: #fae903fd;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #fd3503;
+    transition: .4s;
+    border-color: #fd3503;
+}
+
+
+
+.Logo {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    -webkit-animation-name: LOG;
+    -webkit-animation-duration: 2s;
+    animation-name: LOG;
+    animation-duration: 2s;
+    filter: grayscale(0);
+}
+
+@-webkit-keyframes LOG {
+    0%{filter:grayscale(0);}
+    
+    25%{filter: grayscale(5); width: 300px;}
+    
+    50%{filter:grayscale(10); height: 150px;}
+
+    75%{filter:grayscale(0);}
+
+    100%{filter:grayscale(0);}
+}
+
+@keyframes LOG {
+    0%{filter:grayscale(0);}
+    
+    25%{filter: grayscale(5); width: 300px;}
+    
+    50%{filter:grayscale(10); height: 150px;}
+
+    75%{filter:grayscale(0);}
+
+    100%{filter:grayscale(0);}
+}
+
+
+.BarraSalir{
+    background-color: #fae903fd;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+    color: #242424;
+    text-transform: uppercase;
+}
+
+.Pie{
+    background-color: #fd3503;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white; 
+}
+
+.Logotipo{
+    height: 260px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Pdf{
+    background-color: #242424;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    height: 810px;
+}
+.Video{
+    background-color: #242424;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    height: 400px;
+}
+
+.ImgCvPack{
+    background-color: #242424;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ImgCV{
+    background-color: #242424;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+}
+
+.Menu{
+    background-color: #242424;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Menu img{
+    width: 350px;
+    height: 250px;
+    margin-left: 15px;
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+}
+
+.Menu img:hover{
+
+    transition: .4s;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+
+.Titulo{
+    background-color: #fd3503;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white; 
+}
+
+
+li{
+    list-style-type:none;
+    position:absolute;
+    
+    
+}
+    
+li a{
+    text-justify: auto;
+    text-decoration:solid;
+    display:inline-table;
+    padding: 10px;
+    width:250px;
+    height: 20px;
+    color:#242424;
+    background-color:#fae903fd;
+    font-size: 14px;
+
+}
+
+li a:hover{
+    color:#000;
+    background-color:#a89e0abb;
+    transition: .4s;
+}
+    
+nav li ul{
+    display:none;
+    position:relative;
+    top:0px;
+    left:50px;
+}
+        
+nav li:hover ul{
+    display:block;
+    transition: .5s;
+}
+
+.linkCG{
+    text-decoration: none;
+    color:#fff;
+
+}
+
+
+
+

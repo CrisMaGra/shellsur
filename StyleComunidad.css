@@ -1,0 +1,129 @@
+
+*{
+	font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+
+
+.HeaderLogo{
+    height: 260px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.Logocomunidad{
+    height: 260px;
+    width: 100%;
+}
+
+.Logo {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    -webkit-animation-name: LOG;
+    -webkit-animation-duration: 2s;
+    animation-name: LOG;
+    animation-duration: 2s;
+    filter: grayscale(0);
+}
+
+@-webkit-keyframes LOG {
+    0%{filter:grayscale(0);}
+    
+    25%{filter: grayscale(5); width: 300px;}
+    
+    50%{filter:grayscale(10); height: 150px;}
+
+    75%{filter:grayscale(0);}
+
+    100%{filter:grayscale(0);}
+}
+
+@keyframes LOG {
+    0%{filter:grayscale(0);}
+    
+    25%{filter: grayscale(5); width: 300px;}
+    
+    50%{filter:grayscale(10); height: 150px;}
+
+    75%{filter:grayscale(0);}
+
+    100%{filter:grayscale(0);}
+}
+
+.H1{
+    background-color: #242424;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white; 
+    font-size: 30px;
+}
+
+H2{
+    margin-top: 10px;
+    color: white; 
+    text-align: center;
+    font-size: 25px;
+}
+
+#Publicaciones{
+    background-color: #242424;    
+    margin: 10px;
+    text-align: center;
+    color: white;
+    width: 800px;
+    height: 250px;
+}
+
+
+
+
+
+
+.Logoenlace{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    float: left;
+
+}
+
+.Logoenlace:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
+.HeaderVideo{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #242424;
+}
+
+.Video{
+    height: 800px;
+    width: 90%;
+}
+
+.Volver{
+    padding: 2px;
+    color: #BC5201;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #242424;
+}
+
+.Volver:hover{
+
+    opacity: 0.3;
+}
+
